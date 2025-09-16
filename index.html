@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dishu Yadav | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Dishu<span>Yadav</span></div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Hi, I'm <span>Dishu Yadav</span></h1>
+      <p>Aspiring Full-Stack Developer | DevOps Enthusiast</p>
+      <a href="#projects" class="btn">View My Work</a>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>
+      I'm a passionate developer focused on creating modern web applications. 
+      Skilled in HTML, CSS, JavaScript, and exploring MERN & DevOps. 
+      I aim to build impactful projects and contribute to open-source.
+    </p>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>E-commerce Website</h3>
+        <p>Full-stack e-commerce project with cart, login & payment features.</p>
+      </div>
+      <div class="project-card">
+        <h3>Portfolio Website</h3>
+        <p>A modern personal portfolio showcasing skills & projects.</p>
+      </div>
+      <div class="project-card">
+        <h3>Blog Platform</h3>
+        <p>Blog system with user authentication and markdown support.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send</button>
+    </form>
+    <p class="success" id="successMsg"></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Dishu Yadav | All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
